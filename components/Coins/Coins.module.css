@@ -1,0 +1,75 @@
+.container {
+	display: flex;
+	justify-content: center;
+  color: aliceblue;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 5rem;
+	width: 80%;
+	border-bottom: 1px solid #2e2e2e;
+	padding: 0 2rem;
+}
+
+.row:hover {
+	background-color: #171718;
+}
+
+.coin {
+	display: flex;
+	align-items: center;
+	padding-right: 2rem;
+}
+
+.image {
+	height: 2.4rem;
+	width: 2.4rem;
+	margin-right: 1rem;
+}
+
+.h1 {
+	font-size: 1rem;
+	width: 8rem;
+}
+
+.symbol {
+	text-transform: uppercase;
+	text-align: right;
+	width: 4rem;
+}
+
+.data {
+	display: flex;
+	flex-direction: row;
+	text-align: right;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+}
+
+.price {
+	width: 5rem;
+}
+
+.volume {
+	width: 9rem;
+}
+
+.marketCap {
+	/* width: 12rem; */
+}
+
+.coin_percent {
+	width: 5rem;
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
