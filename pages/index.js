@@ -30,6 +30,8 @@ export default function Home({ coins }) {
       <p className="header-text">Top 10 Cryptocurrencies as of
       {` ${date.getFullYear()}/${date.getMonth()}/${date.getDate()}`} </p>
       <CoinList coins={allCoins} />
+
+      <p  className="disclaimer">consider using laptops/tablets for best experience</p>
     </div>
   )
 }
