@@ -6,6 +6,7 @@ const Layout = ({ children }) => {
     <div className="layout">
       <Head>
         <title>CryptoTrail</title>
+        <link rel="icon" href="/favicon.png" type="image/*" />
       </Head>
       <main>
         {children}
