@@ -2,6 +2,7 @@ import { useState } from 'react'
 import CoinList from '../components/CoinList.js'
 import Searchbar from '../components/Searchbar'
 
+const date = new Date()
 export default function Home({ coins }) {
   const [search, setSearch] = useState('')
 
@@ -26,6 +27,8 @@ export default function Home({ coins }) {
         value={search}
         onChange={handleSearch}
       />
+      <p className="header-text">Top 10 Cryptocurrencies as of
+      {` ${date.getFullYear()}/${date.getMonth()}/${date.getDate()}`} </p>
       <CoinList coins={allCoins} />
     </div>
   )

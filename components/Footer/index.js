@@ -8,9 +8,9 @@ const Footer = () => {
       <p>Developed by:
         <Link
           href="https://www.linkedin.com/in/manishbsta/">
-          <a 
-          target="_blank"
-          className={styles.developer}>
+          <a
+            target="_blank"
+            className={styles.developer}>
             {' '} Manish Bista
             </a>
         </Link>

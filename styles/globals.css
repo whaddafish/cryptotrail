@@ -1,6 +1,7 @@
 html,
 body {
 	background-color: black;
+	color: white;
 	padding: 0;
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -44,5 +45,9 @@ a {
 
 .no-data p {
   font-size: 2rem;
+}
+
+.header-text {
+	text-align: center;
 }
 
