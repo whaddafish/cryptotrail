@@ -5,13 +5,13 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <footer className={styles.container}>
-      <p>Developed by:
+      <p>A product of {' '} 
         <Link
-          href="https://www.linkedin.com/in/manishbsta/">
+          href="https://www.femtobeast.com/">
           <a
             target="_blank"
             className={styles.developer}>
-            {' '} Manish Bista
+            Femtobeast
             </a>
         </Link>
       </p>

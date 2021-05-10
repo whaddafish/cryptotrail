@@ -7,7 +7,8 @@
 }
 
 .developer {
-  color: antiquewhite;
+  color: rgb(135, 215, 252);
+  text-decoration: underline;
 }
 
 .developer:hover{
